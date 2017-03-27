@@ -2,12 +2,12 @@ $(document).ready(function () {
 
     let scrollMagicController = new ScrollMagic.Controller();
 
+    let sceneElements = document.querySelectorAll("[data-secne]");
+
     let getTweenValue = (depth) => {
         const overallSpeedController = 20;
         return  (window.innerHeight / 100) * (depth * overallSpeedController);
-    };
-
-    let sceneElements = document.querySelectorAll("[data-secne]");
+    }
 
     let getTween = (element) => {
         let tween = new TimelineMax();
@@ -21,7 +21,6 @@ $(document).ready(function () {
                 0
             )
         }
-
         return tween;
     }
 
