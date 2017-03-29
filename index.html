@@ -22,11 +22,11 @@
     </header>
     <div class="main">
 
-        <div class="card-row clearfix">
-            <div class="card type-4">
-                <div class="card-t4__content">
-                    <h3 class="card-t4__content__title">PATTERN</h3>
-                    <p class="card-t4__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+        <div class="card-row clearfix" id="test" parallax-scene="test">
+            <div class="card type-4" parallax-element='{"speedY": 1}'>
+                <div class="card-t4__content" parallax-scene="inner-test">
+                    <h3 class="card-t4__content__title" parallax-element='{"speedY": 10}'>PATTERN</h3>
+                    <p class="card-t4__content__text" parallax-element='{"speedY": 5}'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
                         minima minus quam sapiente. Beatae consectetur consequatur culpa cupiditate dolor fugiat laborum
                         laudantium molestias natus qui reiciendis sequi suscipit, temporibus vitae. Lorem ipsum dolor
                         sit amet, consectetur adipisicing elit. Alias consequatur doloremque eligendi explicabo ipsa,
@@ -35,15 +35,15 @@
                         alias architecto debitis dicta eaque est exercitationem, expedita impedit ipsum itaque libero,
                         magnam nemo nesciunt officiis pariatur, quae quaerat velit voluptatum?</p>
                 </div>
-                <div class="card-t4__content__image"></div>
+                <div class="card-t4__content__image" parallax-element='{"speedY": 5}'></div>
             </div>
         </div>
 
         <div class="card-row clearfix">
-            <div class="card type-4" data-secne="c-type1">
+            <div class="card type-4" parallax-scene="c-type1">
                 <div class="card-t4__content">
-                    <h3 class="card-t4__content__title" data-depth="6.5">PATTERN</h3>
-                    <p class="card-t4__content__text" data-depth="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+                    <h3 class="card-t4__content__title" parallax-element='{"speedY": 6}'>PATTERN</h3>
+                    <p class="card-t4__content__text" parallax-element='{"speedY": 4}'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
                         minima minus quam sapiente. Beatae consectetur consequatur culpa cupiditate dolor fugiat laborum
                         laudantium molestias natus qui reiciendis sequi suscipit, temporibus vitae. Lorem ipsum dolor
                         sit amet, consectetur adipisicing elit. Alias consequatur doloremque eligendi explicabo ipsa,
@@ -52,37 +52,38 @@
                         alias architecto debitis dicta eaque est exercitationem, expedita impedit ipsum itaque libero,
                         magnam nemo nesciunt officiis pariatur, quae quaerat velit voluptatum?</p>
                 </div>
-                <div class="card-t4__content__image" data-depth="8"></div>
+                <div class="card-t4__content__image" parallax-element='{"speedY": 8}'></div>
             </div>
         </div>
 
         <div class="card-row clearfix">
 
-            <div class="card type-1 fleft" data-secne="rzt-university">
-                <div class="card__title-aside" data-depth="8"></div>
-                <h3 class="card__title" data-depth="6">RAZORTHINK UNIVERSITY</h3>
-                <p class="card__content-text" data-depth="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+            <div class="card type-1 fleft" parallax-scene="rzt-university">
+                <div class="card__title-aside" parallax-element='{"speedY": 8}'></div>
+                <h3 class="card__title" parallax-element='{"speedY": 6}'>RAZORTHINK UNIVERSITY</h3>
+                <p class="card__content-text" parallax-element='{"speedY": 5}'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
                     assumenda corporis cum cumque cupiditate ea earum eum facilis, fuga itaque maxime mollitia nemo non
                     odit omnis ratione repellendus sed voluptate!</p>
-                <button class="card__more-btn" data-depth="3">Read More</button>
-                <div class="card-aside-image" data-depth="9"></div>
+                <button class="card__more-btn" parallax-element='{"speedY": 3, "rotation": 3}'>Read More</button>
+                <div class="card-aside-image" parallax-element='{"speedY": 9}'></div>
             </div>
 
-            <div class="card type-2 fright" data-secne="brain-conf">
-                <div class="card__date-aside" data-depth="4">
+            <div class="card type-2 fright" parallax-scene="brain-conf">
+                <div class="card__date-aside" 
+                    parallax-element='{"speedX": 7, "rotation": 4}'>
                     <span class="card__date-aside__text-big">29</span>
                     <span class="card__date-aside__text-small">DEC'16</span>
                 </div>
-                <h3 class="card__title" data-depth="6">BIG BRAIN CONFERENCE</h3>
+                <h3 class="card__title" parallax-element='{"speedY": 6}'>BIG BRAIN CONFERENCE</h3>
             </div>
 
         </div>
 
         <div class="card-row clearfix">
-            <div class="card type-3" data-secne="card3">
+            <div class="card type-3" parallax-scene="card3">
                 <div class="card__banner">
-                    <div class="card__banner__aside" data-depth="9"></div>
-                    <div class="card__banner__aside card__banner__aside2" data-depth="4"></div>
+                    <div class="card__banner__aside" parallax-element='{"speedY": 9}'></div>
+                    <div class="card__banner__aside card__banner__aside2" parallax-element='{"speedY": 4}'></div>
                     <h3 class="card__banner__title">RAZORTHINK <BR> PREMIER CUSTOMER PROGRAM</h3>
                 </div>
                 <div class="card__content">
